@@ -149,7 +149,7 @@ int main(void)
                /* 狀態 3：全亮 */
                HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10, GPIO_PIN_SET);   // 開紅燈
                HAL_GPIO_WritePin(GPIOC, GPIO_PIN_12, GPIO_PIN_SET);   // 開黃燈
-               HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, GPIO_PIN_SET);   // 開綠燈
+               HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, GPIO_PIN_SET);   // 開綠燈
            }
 
     /* USER CODE END WHILE */
